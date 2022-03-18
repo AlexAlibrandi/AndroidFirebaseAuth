@@ -40,7 +40,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailLog"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
                 android:background="@drawable/input_bg"
                 android:drawableLeft="@drawable/ic_baseline_security_24"
@@ -81,6 +81,7 @@
                 android:paddingTop="13dp"
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
+                android:password="true"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -103,11 +104,13 @@
                 android:id="@+id/login"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
                 android:background="@drawable/input_bg"
-                android:text="Login"
                 android:onClick="login"
+                android:text="Login"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="@+id/passwordLog"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/passwordLog"
                 app:layout_constraintTop_toBottomOf="@+id/forgotpassword" />
 

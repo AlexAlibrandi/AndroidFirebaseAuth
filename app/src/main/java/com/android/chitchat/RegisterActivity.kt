@@ -1,12 +1,11 @@
 package com.android.chitchat
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
-import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.android.chitchat.databinding.ActivityRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -21,10 +20,9 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.already.setOnClickListener {
-            val intent = Intent(this@RegisterActivity, MainActivity::class.java)
+            val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     fun register(view: View) {
@@ -49,8 +47,16 @@ class RegisterActivity : AppCompatActivity() {
                     "Please confirm password.",
                     Toast.LENGTH_SHORT
                 ).show()
+            }
+            !TextUtils.equals(binding.passReg.text.toString(), binding.confirmPass.text.toString()) -> {
+                Toast.makeText(
+                    this@RegisterActivity,
+                    "Passwords do not match.",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
 
-        } else -> {
+            else -> {
 
             val intent = Intent(this, MainActivity::class.java)
 
