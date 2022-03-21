@@ -1,4 +1,4 @@
-package com.android.chitchat
+package com.android.capstone
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.os.Handler
 import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
-import com.android.chitchat.databinding.ActivitySplashScreenBinding
+import com.android.capstone.databinding.ActivitySplashScreenBinding
 
 class SplashScreen : AppCompatActivity() {
     lateinit var mainBinding: ActivitySplashScreenBinding

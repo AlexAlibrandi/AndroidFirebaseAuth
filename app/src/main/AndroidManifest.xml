@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.chitchat">
+    package="com.android.capstone">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChitChat">
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name="com.android.capstone.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.android.capstone.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,14 +22,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.android.capstone.LoginActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.android.capstone.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.android.capstone.MainActivity"
             android:exported="true" />
 
         <meta-data

@@ -1,11 +1,11 @@
-package com.android.chitchat
+package com.android.capstone
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
-import com.android.chitchat.databinding.ActivityLoginBinding
+import com.android.capstone.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 
