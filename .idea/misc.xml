@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Frale/Downloads/AndroidCapstone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Frale/Downloads/AndroidCapstone/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.1" />
+        <entry key="..\:/Users/Frale/Downloads/AndroidCapstone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Frale/Downloads/AndroidCapstone/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
         <entry key="app/src/main/res/drawable/input_bg.xml" value="0.2425" />
         <entry key="app/src/main/res/drawable/rounded_corner_view.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.31354166666666666" />

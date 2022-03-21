@@ -3,7 +3,7 @@ package com.android.capstone
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.android.chitchat.databinding.ActivityMainBinding
+import com.android.capstone.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {

@@ -3,8 +3,7 @@ package com.android.capstone
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.android.chitchat.databinding.ActivityForgotPasswordBinding
-import com.android.chitchat.databinding.ActivityLoginBinding
+import com.android.capstone.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth
 
 private lateinit var forgotBinding: ActivityForgotPasswordBinding

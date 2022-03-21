@@ -7,8 +7,12 @@ import android.os.Handler
 import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+<<<<<<< HEAD
 import com.android.chitchat.R
 import com.android.chitchat.databinding.ActivitySplashScreenBinding
+=======
+import com.android.capstone.databinding.ActivitySplashScreenBinding
+>>>>>>> 6f928b4fc94673b0e245d36c5fca99ca09088a48
 
 class SplashScreen : AppCompatActivity() {
     lateinit var mainBinding: ActivitySplashScreenBinding
