@@ -1,4 +1,4 @@
-package com.android.chitchat
+package com.android.capstone
 
 import android.content.Intent
 import android.os.Bundle

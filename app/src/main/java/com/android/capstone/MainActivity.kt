@@ -1,4 +1,4 @@
-package com.android.chitchat
+package com.android.capstone
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -25,8 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.logout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
-
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
     }

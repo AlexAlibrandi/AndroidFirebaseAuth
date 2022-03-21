@@ -1,4 +1,4 @@
-package com.android.chitchat
+package com.android.capstone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

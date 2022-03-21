@@ -1,4 +1,4 @@
-package com.android.chitchat
+package com.android.capstone
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.os.Handler
 import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import com.android.chitchat.R
 import com.android.chitchat.databinding.ActivitySplashScreenBinding
 
 class SplashScreen : AppCompatActivity() {
@@ -27,7 +28,7 @@ class SplashScreen : AppCompatActivity() {
         setContentView(view)
 
 
-        topAnimation = AnimationUtils.loadAnimation(this,R.anim.top_animation)
+        topAnimation = AnimationUtils.loadAnimation(this, R.anim.top_animation)
         bottomAnimation = AnimationUtils.loadAnimation(this, R.anim.bottom_animation)
 
         mainBinding.image.animation = topAnimation
